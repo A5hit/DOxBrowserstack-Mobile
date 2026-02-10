@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="DO Purchase Journey" verbose="1" parallel="tests" thread-count="2">
+
+  <test name="iOS Safari">
+    <parameter name="platform" value="IOS_SAFARI"/>
+    <classes>
+      <class name="com.dailyobjects.journey.tests.LocalRunTest"/>
+    </classes>
+  </test>
+
+  <test name="Android Chrome">
+    <parameter name="platform" value="ANDROID_CHROME"/>
+    <classes>
+      <class name="com.dailyobjects.journey.tests.LocalRunTest"/>
+    </classes>
+  </test>
+
+</suite>

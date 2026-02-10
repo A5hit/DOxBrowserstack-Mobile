@@ -1,0 +1,9 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="BrowserStackSDKSuite" parallel="tests" thread-count="2">
+    <test name="BrowserStack SDK">
+        <parameter name="platform" value="BROWSERSTACK_SDK"/>
+        <classes>
+            <class name="com.dailyobjects.journey.tests.LocalRunTest"/>
+        </classes>
+    </test>
+</suite>

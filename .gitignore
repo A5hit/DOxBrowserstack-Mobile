@@ -1,0 +1,17 @@
+# Build output
+target/
+
+# IDE files
+.idea/
+*.iml
+
+# Runtime logs and local data
+log/
+cookies.data
+
+# Local BrowserStack credentials/config
+browserstack.yml
+
+# OS files
+.DS_Store
+Thumbs.db
